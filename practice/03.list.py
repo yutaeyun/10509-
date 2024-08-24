@@ -40,3 +40,12 @@ print(h)
 print(len(a))
 print(len(b))
 print(len(b[0]))
+
+print("=========================")
+
+text = "commit failed with error"
+print(text[5])
+print(text[10:])
+
+txet =  text.replace("m","s", 1)
+print(txet)
