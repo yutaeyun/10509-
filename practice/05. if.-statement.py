@@ -4,12 +4,12 @@
 # 중 - 70점 이상인 사람
 # 하 - 나머지
 
-size = input(input("수학 시험 점수를 입력해주세요"))
+size = int(input("수학 시험 점수를 입력해주세요"))
 print(size)
 
 if size >= 90:
-        print("당신은 상반입니다")
-elif: size >= 70:
+    print("당신은 상반입니다")
+elif size >= 70:
     print("당신은 중반입니다")
- else:
+else:
     print("당신은 하반입니다")
