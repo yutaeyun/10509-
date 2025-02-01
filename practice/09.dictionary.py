@@ -90,6 +90,8 @@ def delete_drink():
 def extract_drink():
     print("음료를 뺍니다.")
 
+def takeout_drink():
+    print("음료가 나옵니다")
 
 while True:
 
